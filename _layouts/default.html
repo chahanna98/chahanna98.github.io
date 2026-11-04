@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+
+      html {
+        font-size: 90%;
+      }
+      body{
+        text-align: left;
+      }
+    
+      .container {
+        margin: 10px;
+        max-width: 100%; 
+        /* padding: 0 0px; */
+        /* width: 100%; */
+      }
+
+      h1 {
+        font-size: 20px;
+        line-height: 1;
+      }
+
+      h4 {
+        font-size: 15px;
+        line-height: 1;
+        color: rgb(153, 153, 153);
+      }
+
+      span.label {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 80%;
+        font-weight: bold;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        border-radius: .25em;
+        padding: 5px 3px 2px;
+      }
+      span.label-arch { background-color: #4CAF50; }
+      span.label-sys { background-color: #2196F3; }
+      span.label-sec { background-color: #F44336; }
+      span.label-ai { background-color: #FF9800; }
+      span.label-neuro { background-color: #008080; }
+      span.label-gpu { background-color: #191970; }
+      span.label-fpga { background-color: #B8860B; }
+      span.label-modeling { background-color: #708090; }
+      span.label-mobile { background-color: #BA55D3; }
+      span.label-database { background-color: #4B0150; }
+      span.label-pim { background-color: #FF6700; }
+
+
+    </style>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <td align="middle">
+            <img src="/images/myPhoto.jpeg" width=120>
+          </td>
+          <td valign="bottom" style="padding-left: 1em;">
+            <h1>Hanna Cha</h1>
+            <!-- <h4>HPCP Lab @ Yonsei University</h4> -->
+            <a href="https://yonsei-hpcp.github.io">HPCP Lab @ Yonsei University</a>
+            <!-- <a href="https://scholar.google.com/citations?authuser=1&user=7x_atNQAAAAJ">Google Scholar</a> | <a href="https://www.linkedin.com/in/jinwoo-choi-a0a916264">Linkedin</a> | <a href="/images/CV.pdf">CV</a> -->
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <!-- <div id="content"> -->
+        <h1>Introduce</h1>
+        I am a PhD student in the <a href="https://yonsei-hpcp.github.io">HPCP Lab</a> at the Department of Computer Science, Yonsei University, advised by <a href="https://youngsok.github.io">Prof. Youngsok Kim</a>.
+          <ul>
+            <li>Email: <a href="mailto:hanna.cha@yonsei.ac.kr">hanna.cha@yonsei.ac.kr</a><br></li>
+          </ul>
+
+        <h1>Research Interests</h1>
+          <ul>
+            <li>Computer architecture and hardware acceleration</li>
+            <li>Processor performance analysis, modeling, and simulation</li>
+          </ul>
+
+          <h1>Education</h1>
+          <ul>
+            <li>PhD Student, Department of Computer Science and Engineering at Yonsei Univeristy (2024 - Present)</li>
+            <li>MSc in Artificial Intelligence, Yonsei University (2022 - 2024)</li>
+            <li>BSc in Electrical and Electronic Engineering, Kobe University (2018 - 2022)</li>
+          </ul>
+
+        <h1>Publications</h1>
+          <ol>
+            <li>
+              <b>MEPID-Join: Scaling Processing-in-DIMM Joins Using Adaptive Key-Level Replication</b> <br>
+              Suhyun Lee, <b>Hanna Cha</b>, Cheamin Lim, Hanjun Kim, and Youngsok Kim <br>
+              <i>53rd International Conference on Very Large Data Bases (<b>VLDB</b>), Aug. 2027 (to appear)</i> <br>
+              <span class="label label-sys">System SW</span> <span class="label label-pim">PIM</span> <span class="label label-database">Database</span>
+            </li>
+            <br>
+            <li>
+              <b>GJP: Fast and Efficient Join-Project Query Processing on GPUs Using Density-Aware Matrix Multiplication</b> <br>
+              Sungchul Lee, Suhyun Lee, <b>Hanna Cha</b>, Cheamin Lim, and Youngsok Kim <br>
+              <i>2027 ACM International Conference on Management of Data (<b>SIGMOD</b>), June 2027 (to appear)</i> <br>
+              <span class="label label-sys">System SW</span> <span class="label label-gpu">GPU</span> <span class="label label-database">Database</span>
+            </li>
+            <br>
+            <li>
+              <b>GISim: Representative-Warp-Free GPU Interval Simulation</b> <br>
+              <b>Hanna Cha</b>, Sungchul Lee, and Youngsok Kim <br>
+              <i>33rd IEEE International Symposium on High-Performance Computer Architecture (<b>HPCA</b>), Mar. 2027 (to appear)</i> <br>
+              <span class="label label-arch">Architecture</span> <span class="label label-modeling">Modeling</span> <span class="label label-gpu">GPU</span>
+            </li>
+            <br>
+            <li>
+              <b><a href="https://doi.org/10.1145/3725843.3756069">LATPC: Accelerating GPU Address Translation Using Locality-Aware TLB Prefetching and MSHR Compression</a></b> <br>
+              Yeonan Ha, Jiho Park, <b>Hanna Cha</b>, Jiwon Lee, Joonsung Kim, Won Woo Ro, and Youngsok Kim <br>
+              <i>58th IEEE/ACM International Symposium on Microarchitecture (<b>MICRO</b>), Oct. 2025</i> <br>
+              <span class="label label-arch">Architecture</span> <span class="label label-gpu">GPU</span>
+            </li>
+            <br>
+            <li>
+              <b><a href="https://doi.org/10.1145/3695053.3731068">GCStack+GCScaler: Fast and Accurate GPU Performance Analyses Using Fine-Grained Stall Cycle Accounting and Interval Analysis</a></b> <br>
+              <b>Hanna Cha</b>, Sungchul Lee, Jounghoo Lee, Yeonan Ha, Joonsung Kim, and Youngsok Kim <br>
+              <i>52nd IEEE/ACM International Symposium on Computer Architecture (<b>ISCA</b>), June 2025</i> <br>
+              <span class="label label-arch">Architecture</span> <span class="label label-modeling">Modeling</span> <span class="label label-gpu">GPU</span>
+            </li>
+            <br>
+            <li>
+              <b><a href="https://doi.org/10.1109/LCA.2024.3476909">GCStack: A GPU Cycle Accounting Mechanism for Providing Accurate Insight Into GPU Performance</a></b> <br>
+              <b>Hanna Cha</b>, Sungchul Lee, Yeonan Ha, Hanhwi Jang, Joonsung Kim, and Youngsok Kim <br>
+              <i>IEEE Computer Architecture Letters (<b>CAL</b>), Oct. 2024</i> <br>
+              <span class="label label-arch">Architecture</span> <span class="label label-modeling">Modeling</span> <span class="label label-gpu">GPU</span>
+            </li>
+            <br>
+            <li>
+              <b><a href="https://ieeexplore.ieee.org/document/10653651">MPC-Wrapper: Fully Harnessing the Potential of Samsung Aquabolt-XL HBM2-PIM on FPGAs</a></b><br>
+              Jinwoo Choi<small><sup>1</sup></small>, Yeonan Ha<small><sup>1</sup></small>, <b>Hanna Cha</b>, Seil Lee, Sungchul Lee, Jounghoo Lee, Shin-haeng Kang, Bongjun Kim, Hanwoong Jung, Hanjun Kim and Youngsok Kim<br>
+              <i>32nd IEEE International Symposium On Field-Programmable Custom Computing Machines (<b>FCCM</b>), May. 2024</i> <br>
+              <small><sup>1</sup>Co-first authors</small><br>
+              <span class="label label-arch">Architecture</span> <span class="label label-fpga">FPGA</span> <span class="label label-pim">PIM</span>
+            </li>
+          </ol>
+  
+        <h1> Awards </h1>
+        <ul>
+          <li>
+            한일공동이공계학부유학 (Full Scholarship) (Mar. 2017 - Mar. 2022)
+          </li>
+        </ul>
+
+        <h1>Projects</h1>
+        <ul>
+          <li>
+            DPU-Centric Datacenter Architecture for Next-Generation AI Devices, <i> Institute for Information & communications Technology Promotion (IITP) </i>
+          </li>
+          <li>
+            Designing a PIM-Based NPU Architecture and FPGA Prototyping, <i> Samsung Advanced Institute of Technology (SAIT) </i>
+          </li>
+        </ul>
+
+        <h1>Teaching</h1>
+        <ul>
+          <li>
+            Discrete Mathematics <small>(2022F, 2023F)</small>
+          </li>
+          <li>
+            Computer Architecture <small>(2023S)</small>
+          </li>
+        </ul>
+      <!-- </div> -->
+    </div>
+
+  </body>
+</html>
